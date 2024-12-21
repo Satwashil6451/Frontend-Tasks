@@ -1,0 +1,51 @@
+// Define variables for common values
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$background-color: #f8f9fa;
+$font-family: 'Arial', sans-serif;
+$font-size: 16px;
+
+body {
+  background-color: $background-color;
+  font-family: $font-family;
+  font-size: $font-size;
+  color: #333;
+
+  a {
+    color: $primary-color;
+    text-decoration: none;
+
+    &:hover {
+      color: darken($primary-color, 10%);
+    }
+  }
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+
+  h1 {
+    color: $primary-color;
+    text-align: center;
+  }
+
+  p {
+    color: $secondary-color;
+    line-height: 1.5;
+  }
+}
+
+.btn {
+  background-color: $primary-color;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: lighten($primary-color, 10%);
+  }
+}
