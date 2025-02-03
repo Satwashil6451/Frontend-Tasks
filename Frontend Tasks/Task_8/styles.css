@@ -17,10 +17,12 @@ body a:hover {
   margin: 0 auto;
   padding: 1rem;
 }
+
 .container h1 {
   color: #007bff;
   text-align: center;
 }
+
 .container p {
   color: #6c757d;
   line-height: 1.5;
