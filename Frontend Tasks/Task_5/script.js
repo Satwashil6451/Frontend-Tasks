@@ -22,5 +22,4 @@ async function fetchPosts() {
         postsContainer.innerHTML = '<p>Error loading posts. Please try again later.</p>';
     }
 }
-
 fetchDataButton.addEventListener('click', fetchPosts);
