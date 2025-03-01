@@ -13,8 +13,8 @@ async function fetchPosts() {
             postElement.classList.add('post');
             postElement.innerHTML = `
                 <h3>${post.title}</h3>
-                <p>${post.body}</p>
-            `;
+                <p>${post.body}</p>`;
+            
             postsContainer.appendChild(postElement);
         });
     } catch (error) {
