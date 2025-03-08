@@ -32,7 +32,7 @@ footer {
     font-size: 14px;
 }
 
-/* For tablet and small laptops */
+/* For tablet and small laptops basically for responsive web page*/
 @media (max-width: 768px) {
     header {
         font-size: 18px;
