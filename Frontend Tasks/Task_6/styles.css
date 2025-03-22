@@ -8,8 +8,6 @@ body {
     margin: 0;
 }
 
-/*The . (dot) in .form-container is a CSS class selector. It is used to select and apply styles to elements that have the class name form-container.*/
-
 .form-container {
     background-color: white;
     padding: 20px;
