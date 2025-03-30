@@ -42,7 +42,8 @@ document.getElementById('registrationForm').addEventListener('submit', function(
             errorItem.textContent = message;
             errorMessagesContainer.appendChild(errorItem);
         });
-    } else {
+    } 
+    else {
         alert('Form submitted successfully!');
     }
 });
