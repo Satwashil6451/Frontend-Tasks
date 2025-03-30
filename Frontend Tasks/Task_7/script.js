@@ -30,7 +30,8 @@ document.getElementById('registrationForm').addEventListener('submit', function(
     if (password.length < 6) {
         errorMessages.push('Password must be at least 6 characters long.');
         form.querySelector('#password').classList.add('is-invalid');
-    } else {
+    } 
+    else {
         form.querySelector('#password').classList.remove('is-invalid');
     }
 
