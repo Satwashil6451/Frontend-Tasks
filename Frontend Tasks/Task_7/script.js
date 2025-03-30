@@ -15,7 +15,8 @@ document.getElementById('registrationForm').addEventListener('submit', function(
     if (name === '') {
         errorMessages.push('Name is required.');
         form.querySelector('#name').classList.add('is-invalid');
-    } else {
+    } 
+    else {
         form.querySelector('#name').classList.remove('is-invalid');
     }
 
