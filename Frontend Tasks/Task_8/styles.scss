@@ -15,7 +15,6 @@ body {
   a {
     color: $primary-color;
     text-decoration: none;
-
     &:hover {
       color: darken($primary-color, 10%);
     }
