@@ -1,4 +1,4 @@
-/* script.js */
+// script.js 
 
 const button = document.getElementById('colorButton');
 
