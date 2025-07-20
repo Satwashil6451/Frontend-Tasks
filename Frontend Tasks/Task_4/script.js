@@ -10,5 +10,4 @@ function changeBackgroundColor() {
     const randomColor = colors[Math.floor(Math.random() * colors.length)];
     body.style.backgroundColor = randomColor;
 }
-
 button.addEventListener('click', changeBackgroundColor);
