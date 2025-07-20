@@ -12,7 +12,7 @@ async function fetchPosts() {
 
         posts.slice(0, 5).forEach(post => {
             const postElement = document.createElement('div');
-            postElement.classList.add('post');
+          postElement.classList.add('post');
             postElement.innerHTML = `
                 <h3>${post.title}</h3>
                 <p>${post.body}</p>`;
