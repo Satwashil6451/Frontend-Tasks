@@ -16,8 +16,7 @@ async function fetchPosts() {
             postElement.innerHTML = `
                 <h3>${post.title}</h3>
                 <p>${post.body}</p>`;
-            
-            postsContainer.appendChild(postElement);
+        postsContainer.appendChild(postElement);
         });
     } catch (error) {
         console.error('Error fetching posts:', error);
