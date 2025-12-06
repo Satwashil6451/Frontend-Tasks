@@ -25,6 +25,7 @@ document.getElementById('registrationForm').addEventListener('submit', function(
 
     const errorMessagesContainer = document.getElementById('errorMessages');
     errorMessagesContainer.innerHTML = ''; 
+
     if (errorMessages.length > 0) {
         errorMessages.forEach(message => {
             const errorItem = document.createElement('p');
