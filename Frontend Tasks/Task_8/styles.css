@@ -10,6 +10,7 @@ body a {
   color: #007bff;
   text-decoration: none;
 }
+
 body a:hover {
   color: rgb(0, 98.4, 204);
 }
