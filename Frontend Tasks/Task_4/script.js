@@ -1,6 +1,7 @@
 // script.js 
 
 const button = document.getElementById('colorButton');
+
 const colors = ['#f4a261', '#2a9d8f', '#e76f51', '#264653', '#e9c46a'];
 function changeBackgroundColor() {
     const body = document.body;
