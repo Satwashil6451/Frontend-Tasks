@@ -12,5 +12,3 @@ function changeBackgroundColor() {
     body.style.backgroundColor = randomColor;
 }
 button.addEventListener('click', changeBackgroundColor);
-
-
