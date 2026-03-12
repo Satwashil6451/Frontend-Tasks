@@ -1,6 +1,7 @@
 // script.js
 
 const fetchDataButton = document.getElementById('fetchDataButton');
+
 const postsContainer = document.getElementById('postsContainer');
 
 async function fetchPosts() {
